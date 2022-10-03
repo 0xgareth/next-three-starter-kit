@@ -1,0 +1,17 @@
+{
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "next",
+    "prettier",
+    "plugin:tailwind/recommended",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "import/prefer-default-export": "off",
+    "no-console": "warn",
+    "no-var": "error",
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "error"
+  }
+}
